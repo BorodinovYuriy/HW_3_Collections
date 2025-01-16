@@ -1,2 +1,3 @@
-public class Filter {
+public interface Filter{
+    Object apply(Object o);
 }
